@@ -44,7 +44,6 @@ To get the *feel* of how your application behaves in production, you can run thi
 ```
 npm run prod
 ```
-`Tip`: to utilise the DB, you have to run `npm run db:local` with the correct `.env` keys in the previous step 
 <br>
 
 ### 1b. Running tests
