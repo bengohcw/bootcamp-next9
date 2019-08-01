@@ -2,3 +2,12 @@ language: node_js
 
 node_js: 
   - 10.13.0
+
+deploy: 
+ provider: heroku
+ app: sample-deploy-ben-1
+ api_key:
+  secure: $HEROKU_API_KEY
+on:
+ branch: master
+ 
